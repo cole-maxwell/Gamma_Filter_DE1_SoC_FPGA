@@ -1,0 +1,17 @@
+	component MAC_3 is
+		generic (
+			selected_device_family : string := ""
+		);
+		port (
+			result  : out std_logic_vector(26 downto 0);                    -- result
+			dataa_0 : in  std_logic_vector(7 downto 0)  := (others => 'X'); -- dataa_0
+			dataa_1 : in  std_logic_vector(7 downto 0)  := (others => 'X'); -- dataa_1
+			dataa_2 : in  std_logic_vector(7 downto 0)  := (others => 'X'); -- dataa_2
+			datab_0 : in  std_logic_vector(16 downto 0) := (others => 'X'); -- datab_0
+			datab_1 : in  std_logic_vector(16 downto 0) := (others => 'X'); -- datab_1
+			datab_2 : in  std_logic_vector(16 downto 0) := (others => 'X'); -- datab_2
+			clock0  : in  std_logic                     := 'X';             -- clk
+			aclr0   : in  std_logic                     := 'X'              -- aclr0
+		);
+	end component MAC_3;
+

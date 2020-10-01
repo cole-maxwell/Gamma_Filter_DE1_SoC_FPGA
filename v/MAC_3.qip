@@ -1,0 +1,11 @@
+set_global_assignment -entity "MAC_3" -library "MAC_3" -name IP_TOOL_NAME "altera_mult_add"
+set_global_assignment -entity "MAC_3" -library "MAC_3" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "MAC_3" -library "MAC_3" -name IP_TOOL_ENV "mwpim"
+set_global_assignment -library "MAC_3" -name MISC_FILE [file join $::quartus(qip_path) "MAC_3.cmp"]
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+
+set_global_assignment -library "MAC_3" -name VERILOG_FILE [file join $::quartus(qip_path) "MAC_3.v"]
+
+set_global_assignment -entity "altera_mult_add" -library "MAC_3" -name IP_TOOL_NAME "altera_mult_add"
+set_global_assignment -entity "altera_mult_add" -library "MAC_3" -name IP_TOOL_VERSION "13.1"
+set_global_assignment -entity "altera_mult_add" -library "MAC_3" -name IP_TOOL_ENV "mwpim"
