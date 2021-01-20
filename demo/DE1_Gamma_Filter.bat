@@ -60,7 +60,7 @@ echo ===========================================================
 @ REM # Variable to ignore mixed paths
 @ REM # i.e. G:/$SOPC_KIT_NIOS2/bin
 @ set CYGWIN=nodosfilewarning
-%QUARTUS_ROOTDIR%\\bin\\quartus_pgm.exe -m jtag -c 1 -o "p;DE1_SoC_TV.sof@%Index%"
+%QUARTUS_ROOTDIR%\\bin\\quartus_pgm.exe -m jtag -c 1 -o "p;DE1_Gamma_Filter.sof@%Index%"
 goto end
 
 :error
