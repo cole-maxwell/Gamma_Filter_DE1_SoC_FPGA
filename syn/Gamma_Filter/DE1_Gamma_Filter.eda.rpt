@@ -1,5 +1,5 @@
 EDA Netlist Writer report for DE1_Gamma_Filter
-Tue Jan 19 22:27:44 2021
+Wed Jan 20 16:58:23 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Tue Jan 19 22:27:44 2021 ;
+; EDA Netlist Writer Status ; Successful - Wed Jan 20 16:58:23 2021 ;
 ; Revision Name             ; DE1_Gamma_Filter                      ;
 ; Top-level Entity Name     ; DE1_Gamma_Filter                      ;
 ; Family                    ; Cyclone V                             ;
@@ -66,13 +66,13 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                                         ;
-+--------------------------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                                    ;
-+--------------------------------------------------------------------------------------------------------------------+
-; C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/simulation/modelsim/DE1_Gamma_Filter.svo ;
-+--------------------------------------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                                                   ;
++------------------------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                              ;
++------------------------------------------------------------------------------------------------------------------------------+
+; C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/simulation/modelsim/DE1_Gamma_Filter.svo ;
++------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -81,14 +81,14 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Tue Jan 19 22:27:42 2021
+    Info: Processing started: Wed Jan 20 16:58:21 2021
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off DE1_Gamma_Filter -c DE1_Gamma_Filter
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Warning (10905): Generated the EDA functional simulation netlist because it is the only supported netlist type for this device.
-Info (204019): Generated file DE1_Gamma_Filter.svo in folder "C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file DE1_Gamma_Filter.svo in folder "C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/simulation/modelsim/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4891 megabytes
-    Info: Processing ended: Tue Jan 19 22:27:44 2021
+    Info: Peak virtual memory: 4890 megabytes
+    Info: Processing ended: Wed Jan 20 16:58:23 2021
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 

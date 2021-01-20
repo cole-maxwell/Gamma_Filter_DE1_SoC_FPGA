@@ -1,5 +1,5 @@
 Fitter report for DE1_Gamma_Filter
-Tue Jan 19 22:27:24 2021
+Wed Jan 20 16:58:01 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -69,7 +69,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Successful - Tue Jan 19 22:27:24 2021       ;
+; Fitter Status                   ; Successful - Wed Jan 20 16:58:01 2021       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; DE1_Gamma_Filter                            ;
 ; Top-level Entity Name           ; DE1_Gamma_Filter                            ;
@@ -168,8 +168,8 @@ refer to the applicable agreement for further details.
 ;     Processor 2            ;   3.0%      ;
 ;     Processor 3            ;   1.7%      ;
 ;     Processor 4            ;   1.6%      ;
-;     Processor 5            ;   1.5%      ;
-;     Processor 6            ;   1.5%      ;
+;     Processor 5            ;   1.4%      ;
+;     Processor 6            ;   1.4%      ;
 ;     Processor 7            ;   1.4%      ;
 ;     Processor 8            ;   1.4%      ;
 +----------------------------+-------------+
@@ -829,7 +829,7 @@ refer to the applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.pin.
+The pin-out file can be found in C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.pin.
 
 
 +---------------------------------------------------------------------------------------------+
@@ -3981,22 +3981,22 @@ Warning: RST port on the PLL is not properly connected on instance Sdram_Control
 Warning (21300): LOCKED port on the PLL is not properly connected on instance "Sdram_Control_4Port:u6|Sdram_PLL:sdram_pll1|Sdram_PLL_0002:sdram_pll_inst|altera_pll:altera_pll_i|general[0].gpll". The LOCKED port on the PLL should be connected when the FBOUTCLK port is connected. Although it is unnecessary to connect the LOCKED signal, any logic driven off of an output clock of the PLL will not know when the PLL is locked and ready.
 Warning (18550): Found RAM instances implemented as ROM because the write logic is disabled. One instance is listed below as an example.
     Info (119043): Atom "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a0" is instantiated as RAM, but it is actually implemented as ROM function because the write logic is always disabled
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a0" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a1" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a2" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a3" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a4" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a5" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a6" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a7" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a8" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a9" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a10" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a11" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a12" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a13" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a14" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
-Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a15" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a0" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a1" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a2" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a3" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a4" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a5" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a6" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a7" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a8" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a9" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a10" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a11" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a12" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a13" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a14" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
+Warning (15400): WYSIWYG primitive "Sdram_Control_4Port:u6|Sdram_WR_FIFO:write_fifo2|dcfifo:dcfifo_component|dcfifo_bg02:auto_generated|altsyncram_d3f1:fifo_ram|ram_block11a15" has a port clk0 that is stuck at GND File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/db/altsyncram_d3f1.tdf Line: 37
 Info (171004): Fitter is performing a Standard Fit compilation using maximum Fitter effort to optimize design performance
 Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
 Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
@@ -4064,7 +4064,7 @@ Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176218): Packed 188 registers into blocks of type DSP block
     Extra Info (176220): Created 71 register duplicates
-Info (11798): Fitter preparation operations ending: elapsed time is 00:00:11
+Info (11798): Fitter preparation operations ending: elapsed time is 00:00:12
 Info (170189): Fitter placement preparation operations beginning
 Info (14951): The Fitter is using Advanced Physical Optimization.
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:12
@@ -4075,7 +4075,7 @@ Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 12% of the available device resources in the region that extends from location X22_Y0 to location X32_Y10
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:05
-Info (11888): Total time spent on timing analysis during the Fitter is 3.70 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 3.73 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -4083,97 +4083,97 @@ Info (334004): Delay annotation completed successfully
 Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:06
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Warning (169064): Following 80 pins have no output enable or a GND or VCC output enable - later changes to this connectivity may change fitting results
-    Info (169065): Pin ADC_CS_N has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 39
-    Info (169065): Pin GPIO_0[0] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[1] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[2] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[3] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[4] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[5] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[6] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[7] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[8] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[9] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[10] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[11] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[12] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[13] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[14] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[15] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[16] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[17] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[18] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[19] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[20] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[21] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[22] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[23] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[24] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[25] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[26] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[27] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[28] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[29] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[30] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[31] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[32] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[33] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[34] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_0[35] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 85
-    Info (169065): Pin GPIO_1[0] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[1] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[2] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[3] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[4] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[5] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[6] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[7] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[8] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[9] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[10] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[11] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[12] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[13] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[14] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[15] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[16] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[17] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[18] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[19] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[20] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[21] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[22] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[23] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[24] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[25] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[26] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[27] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[28] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[29] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[30] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[31] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[32] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[33] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[34] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin GPIO_1[35] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 86
-    Info (169065): Pin PS2_CLK has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 174
-    Info (169065): Pin PS2_CLK2 has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 175
-    Info (169065): Pin PS2_DAT has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 176
-    Info (169065): Pin PS2_DAT2 has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 177
-    Info (169065): Pin AUD_ADCLRCK has a permanently enabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 46
-    Info (169065): Pin AUD_BCLK has a permanently enabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 47
-    Info (169065): Pin AUD_DACLRCK has a permanently enabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.v Line: 49
-Info (144001): Generated suppressed messages file C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.fit.smsg
+    Info (169065): Pin ADC_CS_N has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 39
+    Info (169065): Pin GPIO_0[0] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[1] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[2] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[3] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[4] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[5] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[6] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[7] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[8] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[9] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[10] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[11] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[12] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[13] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[14] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[15] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[16] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[17] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[18] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[19] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[20] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[21] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[22] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[23] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[24] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[25] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[26] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[27] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[28] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[29] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[30] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[31] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[32] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[33] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[34] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_0[35] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 85
+    Info (169065): Pin GPIO_1[0] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[1] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[2] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[3] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[4] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[5] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[6] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[7] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[8] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[9] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[10] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[11] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[12] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[13] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[14] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[15] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[16] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[17] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[18] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[19] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[20] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[21] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[22] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[23] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[24] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[25] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[26] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[27] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[28] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[29] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[30] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[31] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[32] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[33] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[34] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin GPIO_1[35] has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 86
+    Info (169065): Pin PS2_CLK has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 174
+    Info (169065): Pin PS2_CLK2 has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 175
+    Info (169065): Pin PS2_DAT has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 176
+    Info (169065): Pin PS2_DAT2 has a permanently disabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 177
+    Info (169065): Pin AUD_ADCLRCK has a permanently enabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 46
+    Info (169065): Pin AUD_BCLK has a permanently enabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 47
+    Info (169065): Pin AUD_DACLRCK has a permanently enabled output enable File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.v Line: 49
+Info (144001): Generated suppressed messages file C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 35 warnings
-    Info: Peak virtual memory: 7171 megabytes
-    Info: Processing ended: Tue Jan 19 22:27:25 2021
-    Info: Elapsed time: 00:01:00
-    Info: Total CPU time (on all processors): 00:03:13
+    Info: Peak virtual memory: 7174 megabytes
+    Info: Processing ended: Wed Jan 20 16:58:02 2021
+    Info: Elapsed time: 00:01:05
+    Info: Total CPU time (on all processors): 00:03:10
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/DE1_Gamma_Filter.fit.smsg.
+The suppressed messages can be found in C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/DE1_Gamma_Filter.fit.smsg.
 
 

@@ -12,8 +12,8 @@ int main (int argc, char *argv[])
                                 1.1, 1.2, 1.3, 1.4, 1.5};
 
     for (int index = 0; index <= 8; index++) {
-        // generate_tb_signal_in_files(gamma_values[index]);
-        // generate_tb_expected_values_files(gamma_values[index]);
+        generate_tb_signal_in_files(gamma_values[index]);
+        generate_tb_expected_values_files(gamma_values[index]);
         generate_case_statements(gamma_values[index], index);
     }
 
