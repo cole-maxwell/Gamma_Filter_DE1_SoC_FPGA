@@ -1,0 +1,80 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/simulation/modelsim
+vDE1_Gamma_Filter
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1610657162
+!i10b 1
+!s100 ?OD]Ne@<n>fD?=3YcQVZ21
+IkL>3?zTe0a55l:PG1IDYX2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+!s105 DE1_Gamma_Filter_svo_unit
+S1
+R0
+w1610580685
+8DE1_Gamma_Filter.svo
+FDE1_Gamma_Filter.svo
+L0 31
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1610657161.000000
+!s107 DE1_Gamma_Filter.svo|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+.|DE1_Gamma_Filter.svo|
+!i113 1
+o-sv -work work
+!s92 -sv -work work +incdir+.
+Z3 tCvgOpt 0
+n@d@e1_@gamma_@filter
+vGamma_Correct_TB
+!s110 1610657176
+!i10b 1
+!s100 D@YGCi>O41>RfR`46n[kJ1
+Io@eCbD^Noo<2?=ozlTW]J2
+R1
+R0
+w1610648809
+8C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/bench/Gamma_Correct_TB.v
+FC:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/bench/Gamma_Correct_TB.v
+L0 15
+R2
+r1
+!s85 0
+31
+!s108 1610657176.000000
+!s107 C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/bench/Gamma_Correct_TB.v|
+!s90 -reportprogress|300|-work|work|C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/bench/Gamma_Correct_TB.v|
+!i113 1
+Z4 o-work work
+R3
+n@gamma_@correct_@t@b
+vSQRT
+!s110 1610657186
+!i10b 1
+!s100 :S=]m5f8ZfAgg9_DeYX940
+Id][0`JJz<d=U8]N`eLcIG1
+R1
+R0
+w1610656794
+8C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/v/SQRT_bb.v
+FC:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/v/SQRT_bb.v
+L0 34
+R2
+r1
+!s85 0
+31
+!s108 1610657186.000000
+!s107 C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/v/SQRT_bb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/v/SQRT_bb.v|
+!i113 1
+R4
+R3
+n@s@q@r@t

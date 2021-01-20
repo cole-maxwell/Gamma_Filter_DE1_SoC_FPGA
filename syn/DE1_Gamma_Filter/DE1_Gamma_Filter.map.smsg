@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at Gamma_Correct_Case_Statements.v(19): always construct contains both blocking and non-blocking assignments File: C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/v/Gamma_Correct_Case_Statements.v Line: 19

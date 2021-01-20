@@ -1,0 +1,55 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/simulation/modelsim
+vGamma_Correct_Case_Statements
+!s110 1610923181
+!i10b 1
+!s100 ?<9=>:Pm?fAEA7dT6m9<l3
+IDndK]VN27MOC>3GEJLeJZ3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1610923163
+8C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/v/Gamma_Correct_Case_Statements.v
+FC:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/v/Gamma_Correct_Case_Statements.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1610923181.000000
+!s107 C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/v/Gamma_Correct_Case_Statements.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/v|C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/v/Gamma_Correct_Case_Statements.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/v
+Z3 tCvgOpt 0
+n@gamma_@correct_@case_@statements
+vGamma_Correct_TB
+!s110 1610923191
+!i10b 1
+!s100 2ZY1UYC5i3SV[12_>K`PX0
+I^_9;AM@akTozg>VXi2@K@2
+R1
+R0
+w1610923149
+8C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/bench/Gamma_Correct_TB.v
+FC:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/bench/Gamma_Correct_TB.v
+L0 15
+R2
+r1
+!s85 0
+31
+!s108 1610923191.000000
+!s107 C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/bench/Gamma_Correct_TB.v|
+!s90 -reportprogress|300|-work|work|C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/bench/Gamma_Correct_TB.v|
+!i113 1
+o-work work
+R3
+n@gamma_@correct_@t@b
