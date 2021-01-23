@@ -7,48 +7,48 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/simulation/modelsim
-vGamma_Correct_Case_Statements
-!s110 1610923181
+Z0 dC:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/simulation/modelsim
+vGamma_Correct_Sim
+!s110 1611435179
 !i10b 1
-!s100 ?<9=>:Pm?fAEA7dT6m9<l3
-IDndK]VN27MOC>3GEJLeJZ3
+!s100 ^PkznXHHVK0^@9DZ9hKC<3
+I0DLdz8BFbRkgiM4Yl:DIO1
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1610923163
-8C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/v/Gamma_Correct_Case_Statements.v
-FC:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/v/Gamma_Correct_Case_Statements.v
+w1611435156
+8C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/v/Gamma_Correct_Sim.v
+FC:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/v/Gamma_Correct_Sim.v
 L0 1
 Z2 OV;L;10.5b;63
 r1
 !s85 0
 31
-!s108 1610923181.000000
-!s107 C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/v/Gamma_Correct_Case_Statements.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/v|C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/v/Gamma_Correct_Case_Statements.v|
+!s108 1611435179.000000
+!s107 C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/v/Gamma_Correct_Sim.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/v|C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/v/Gamma_Correct_Sim.v|
 !i113 1
 o-vlog01compat -work work
-!s92 -vlog01compat -work work +incdir+C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/DE1_Gamma_Filter/v
+!s92 -vlog01compat -work work +incdir+C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/syn/Gamma_Filter/v
 Z3 tCvgOpt 0
-n@gamma_@correct_@case_@statements
+n@gamma_@correct_@sim
 vGamma_Correct_TB
-!s110 1610923191
+!s110 1611435258
 !i10b 1
-!s100 2ZY1UYC5i3SV[12_>K`PX0
-I^_9;AM@akTozg>VXi2@K@2
+!s100 l>997CJPf=A=TJ_oR[^Ob2
+IoP^jB3L>Y4KIjg5zN5b7W2
 R1
 R0
-w1610923149
-8C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/bench/Gamma_Correct_TB.v
-FC:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/bench/Gamma_Correct_TB.v
-L0 15
+w1611435252
+8C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/bench/Gamma_Correct_TB.v
+FC:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/bench/Gamma_Correct_TB.v
+L0 19
 R2
 r1
 !s85 0
 31
-!s108 1610923191.000000
-!s107 C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/bench/Gamma_Correct_TB.v|
-!s90 -reportprogress|300|-work|work|C:/Users/coleh/Desktop/uma/ece688_gammaFilter/04_current/bench/Gamma_Correct_TB.v|
+!s108 1611435257.000000
+!s107 C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/bench/Gamma_Correct_TB.v|
+!s90 -reportprogress|300|-work|work|C:/Users/coleh/Desktop/uma/ece688_gammaFilter/Gamma_Filter_DE1_SoC/bench/Gamma_Correct_TB.v|
 !i113 1
 o-work work
 R3

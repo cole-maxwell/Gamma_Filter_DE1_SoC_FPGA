@@ -5,7 +5,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSEMA5F31C6
-set_global_assignment -name TOP_LEVEL_ENTITY DE1_Gamma_Filter
+set_global_assignment -name TOP_LEVEL_ENTITY Gamma_Correct_Sim
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13
 set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "MON JUN 17 20:35:29 2013"
@@ -383,6 +383,43 @@ set_global_assignment -name OPTIMIZE_HOLD_TIMING "ALL PATHS"
 set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
 set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (SystemVerilog)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "SYSTEMVERILOG HDL" -section_id eda_simulation
+set_global_assignment -name VERILOG_FILE v/Gamma_Correct_Sim.v
+set_global_assignment -name VERILOG_FILE v/Gamma_Correct.v
+set_global_assignment -name VERILOG_FILE v/YCbCr2RGB.v
+set_global_assignment -name SDC_FILE DE1_Gamma_Filter.sdc
+set_global_assignment -name QIP_FILE Sdram_WR_FIFO.qip
+set_global_assignment -name QIP_FILE Sdram_RD_FIFO.qip
+set_global_assignment -name QIP_FILE Sdram_PLL.qip
+set_global_assignment -name QIP_FILE MAC_3.qip
+set_global_assignment -name QIP_FILE Line_Buffer.qip
+set_global_assignment -name QIP_FILE DIV.qip
+set_global_assignment -name VERILOG_FILE DE1_Gamma_Filter.v
+set_global_assignment -name SOURCE_FILE Sdram_Control_4Port/Sdram_Params.h
+set_global_assignment -name VERILOG_FILE Sdram_Control_4Port/Sdram_Control_4Port.v
+set_global_assignment -name VERILOG_FILE Sdram_Control_4Port/sdr_data_path.v
+set_global_assignment -name VERILOG_FILE Sdram_Control_4Port/control_interface.v
+set_global_assignment -name VERILOG_FILE Sdram_Control_4Port/command.v
+set_global_assignment -name QIP_FILE Sdram_Control_4Port/Sdram_WR_FIFO.qip
+set_global_assignment -name QIP_FILE Sdram_Control_4Port/Sdram_RD_FIFO.qip
+set_global_assignment -name QIP_FILE Sdram_Control_4Port/Sdram_PLL.qip
+set_global_assignment -name VERILOG_FILE v/YUV422_to_444.v
+set_global_assignment -name VERILOG_FILE v/VGA_Ctrl.v
+set_global_assignment -name QIP_FILE v/TP_RAM.qip
+set_global_assignment -name VERILOG_FILE v/TD_Detect.v
+set_global_assignment -name VERILOG_FILE v/SEG7_LUT.v
+set_global_assignment -name VERILOG_FILE v/Reset_Delay.v
+set_global_assignment -name VERILOG_FILE v/ITU_656_Decoder.v
+set_global_assignment -name VERILOG_FILE v/I2C_Controller.v
+set_global_assignment -name VERILOG_FILE v/I2C_AV_Config.v
+set_global_assignment -name QIP_FILE v/MAC_3.qip
+set_global_assignment -name QIP_FILE v/PLL.qip
+set_global_assignment -name QIP_FILE v/Line_Buffer.qip
+set_global_assignment -name QIP_FILE v/DIV.qip
+set_global_assignment -name VERILOG_FILE v/AUDIO_DAC.v
+set_global_assignment -name SDC_FILE DE1_SoC_TV.sdc
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_CS_N
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_DIN
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_DOUT
@@ -949,40 +986,4 @@ set_instance_assignment -name GLOBAL_SIGNAL OFF -to u0|hps_0|hps_io|border|hps_s
 set_instance_assignment -name GLOBAL_SIGNAL OFF -to u0|hps_0|hps_io|border|hps_sdram_inst|p0|umemphy|uread_datapath|reset_n_fifo_wraddress[3] -tag __hps_sdram_p0
 set_instance_assignment -name ENABLE_BENEFICIAL_SKEW_OPTIMIZATION_FOR_NON_GLOBAL_CLOCKS ON -to u0|hps_0|hps_io|border|hps_sdram_inst -tag __hps_sdram_p0
 set_instance_assignment -name PLL_COMPENSATION_MODE DIRECT -to u0|hps_0|hps_io|border|hps_sdram_inst|pll0|fbout -tag __hps_sdram_p0
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name VERILOG_FILE v/Gamma_Correct.v
-set_global_assignment -name VERILOG_FILE v/YCbCr2RGB.v
-set_global_assignment -name SDC_FILE DE1_Gamma_Filter.sdc
-set_global_assignment -name QIP_FILE Sdram_WR_FIFO.qip
-set_global_assignment -name QIP_FILE Sdram_RD_FIFO.qip
-set_global_assignment -name QIP_FILE Sdram_PLL.qip
-set_global_assignment -name QIP_FILE MAC_3.qip
-set_global_assignment -name QIP_FILE Line_Buffer.qip
-set_global_assignment -name QIP_FILE DIV.qip
-set_global_assignment -name VERILOG_FILE DE1_Gamma_Filter.v
-set_global_assignment -name SOURCE_FILE Sdram_Control_4Port/Sdram_Params.h
-set_global_assignment -name VERILOG_FILE Sdram_Control_4Port/Sdram_Control_4Port.v
-set_global_assignment -name VERILOG_FILE Sdram_Control_4Port/sdr_data_path.v
-set_global_assignment -name VERILOG_FILE Sdram_Control_4Port/control_interface.v
-set_global_assignment -name VERILOG_FILE Sdram_Control_4Port/command.v
-set_global_assignment -name QIP_FILE Sdram_Control_4Port/Sdram_WR_FIFO.qip
-set_global_assignment -name QIP_FILE Sdram_Control_4Port/Sdram_RD_FIFO.qip
-set_global_assignment -name QIP_FILE Sdram_Control_4Port/Sdram_PLL.qip
-set_global_assignment -name VERILOG_FILE v/YUV422_to_444.v
-set_global_assignment -name VERILOG_FILE v/VGA_Ctrl.v
-set_global_assignment -name QIP_FILE v/TP_RAM.qip
-set_global_assignment -name VERILOG_FILE v/TD_Detect.v
-set_global_assignment -name VERILOG_FILE v/SEG7_LUT.v
-set_global_assignment -name VERILOG_FILE v/Reset_Delay.v
-set_global_assignment -name VERILOG_FILE v/ITU_656_Decoder.v
-set_global_assignment -name VERILOG_FILE v/I2C_Controller.v
-set_global_assignment -name VERILOG_FILE v/I2C_AV_Config.v
-set_global_assignment -name QIP_FILE v/MAC_3.qip
-set_global_assignment -name QIP_FILE v/PLL.qip
-set_global_assignment -name QIP_FILE v/Line_Buffer.qip
-set_global_assignment -name QIP_FILE v/DIV.qip
-set_global_assignment -name VERILOG_FILE v/AUDIO_DAC.v
-set_global_assignment -name SDC_FILE DE1_SoC_TV.sdc
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

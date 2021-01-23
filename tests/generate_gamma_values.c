@@ -5,6 +5,7 @@
 void generate_tb_signal_in_files(float gamma);
 void generate_tb_expected_values_files(float gamma);
 void generate_case_statements(float gamma, int index);
+void generate_test_case_statement(float gamma);
 
 int main (int argc, char *argv[])
 {
@@ -14,8 +15,10 @@ int main (int argc, char *argv[])
     for (int index = 0; index <= 8; index++) {
         generate_tb_signal_in_files(gamma_values[index]);
         generate_tb_expected_values_files(gamma_values[index]);
-        generate_case_statements(gamma_values[index], index);
+    //     generate_case_statements(gamma_values[index], index);
     }
+
+    generate_test_case_statement(1.5);
 
 }
 
@@ -25,7 +28,7 @@ void generate_tb_signal_in_files(float gamma) {
     {
         FILE *fp1;
         char filename1[30];
-        sprintf(filename1, "%.2f_signal_in.txt", gamma);
+        sprintf(filename1, "%.1f_signal_in.txt", gamma);
         fp1 = fopen(filename1, "a");
         if (pixelvalue != 255)
             fprintf(fp1, "%.2x // %d\n", pixelvalue, pixelvalue);
@@ -43,7 +46,7 @@ void generate_tb_expected_values_files(float gamma) {
         float gammapixel = (255 * pow(((float)pixelvalue / 255), gamma));
         FILE *fp2;
         char filename2[30];
-        sprintf(filename2, "%.2f_expected_values.txt", gamma);
+        sprintf(filename2, "%.1f_expected_values.txt", gamma);
         fp2 = fopen(filename2, "a");
         if (pixelvalue != 255)
             fprintf(fp2, "%.2x // %d\n", (int)gammapixel, (int)gammapixel);
@@ -73,6 +76,22 @@ void generate_case_statements(float gamma, int index)
 
     fprintf(fp3, "\t\t\tendcase\n");
     fprintf(fp3, "\t\tend\n");
-    // fprintf(fp3,"\tend\n");  
     fclose(fp3);
+}
+
+void generate_test_case_statement(float gamma)
+{
+
+    FILE *fp4;
+    char filename4[30];
+    sprintf(filename4, "test_case_statement.txt");
+    fp4 = fopen(filename4, "a");
+
+    for (int pixelvalue = 0; pixelvalue <= 255; pixelvalue++)
+    {  
+        float gammapixel = (255 * pow(((float)pixelvalue / 255), gamma));
+        fprintf(fp4, "%.2x	:	result<=%.2x;\n", pixelvalue, (int)gammapixel);
+    }
+
+    fclose(fp4);
 }
